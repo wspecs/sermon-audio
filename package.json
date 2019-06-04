@@ -51,7 +51,7 @@
     "prod": "npm run build && node dist/index.js --instance prod",
     "readme": "node ./node_modules/.bin/node-readme",
     "test": "mocha ./dist/test/*.js",
-    "start": "node dist/index.js --instance prod --port 8000"
+    "start": "node dist/index.js --instance prod"
   },
   "types": "dist/index.d.ts",
   "version": "0.0.1"
