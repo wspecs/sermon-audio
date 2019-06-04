@@ -31,8 +31,7 @@
     "@types/node": "^10.0.4",
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
-    "node-readme": "^0.1.9",
-    "typescript": "^3.5.1"
+    "node-readme": "^0.1.9"
   },
   "homepage": "https://github.com/wspecs/express-ts-starter#readme",
   "keywords": [
@@ -46,7 +45,7 @@
     "url": "git+https://github.com/wspecs/express-ts-starter.git"
   },
   "scripts": {
-    "build": "rm -rf dist && ./node_modules/.bin/tsc && npm run readme",
+    "build": "npm i typescript && rm -rf dist && ./node_modules/.bin/tsc && npm run readme && npm uninstall typescript",
     "build:minify": "node dist/lib/minify.js --css --js --debug",
     "dev": "npm run build && node dist/index.js --instance dev --debug",
     "prod": "npm run build && node dist/index.js --instance prod",

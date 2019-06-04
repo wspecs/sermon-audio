@@ -76,7 +76,7 @@ npm install --save sermon-audio
 
 ## Scripts
 
- - **npm run build** : `rm -rf dist && ./node_modules/.bin/tsc && npm run readme`
+ - **npm run build** : `npm i typescript && rm -rf dist && ./node_modules/.bin/tsc && npm run readme && npm uninstall typescript`
  - **npm run build:minify** : `node dist/lib/minify.js --css --js --debug`
  - **npm run dev** : `npm run build && node dist/index.js --instance dev --debug`
  - **npm run prod** : `npm run build && node dist/index.js --instance prod`
@@ -95,6 +95,7 @@ Package | Version | Dev
 [express-starter-config](https://www.npmjs.com/package/express-starter-config) | ^0.2.1 | ✖
 [great-logs](https://www.npmjs.com/package/great-logs) | 0.0.4 | ✖
 [prompts](https://www.npmjs.com/package/prompts) | ^2.0.1 | ✖
+[typescript](https://www.npmjs.com/package/typescript) | ^3.5.1 | ✖
 [walkdir](https://www.npmjs.com/package/walkdir) | 0.0.12 | ✖
 [@types/chai](https://www.npmjs.com/package/@types/chai) | ^4.1.3 | ✔
 [@types/express](https://www.npmjs.com/package/@types/express) | ^4.16.0 | ✔
@@ -103,7 +104,6 @@ Package | Version | Dev
 [chai](https://www.npmjs.com/package/chai) | ^4.1.2 | ✔
 [mocha](https://www.npmjs.com/package/mocha) | ^5.1.1 | ✔
 [node-readme](https://www.npmjs.com/package/node-readme) | ^0.1.9 | ✔
-[typescript](https://www.npmjs.com/package/typescript) | ^3.5.1 | ✔
 
 
 ## Contributing
