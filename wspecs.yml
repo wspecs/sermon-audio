@@ -1,3 +1,4 @@
+name: sermon-audio
 git: https://github.com/wspecs/sermon-audio.git
 docker: wspecs/sermon-audio
 domain: sermon-audio.wendly.com
