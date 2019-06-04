@@ -1,0 +1,8 @@
+git: https://github.com/wspecs/sermon-audio.git
+docker: wspecs/sermon-audio
+domain: sermon-audio.wendly
+port: 8001
+buckets:
+ - sfo-app-staging
+staging_branch: master
+prod_branch: master
