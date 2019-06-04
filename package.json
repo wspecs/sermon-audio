@@ -17,7 +17,7 @@
     "@decorators/express": "^2.3.0",
     "args-finder": "0.0.3",
     "commander": "^2.19.0",
-    "express-starter-config": "^0.2.1",
+    "express-starter-config": "^0.3.0",
     "great-logs": "0.0.4",
     "prompts": "^2.0.1",
     "walkdir": "0.0.12"
