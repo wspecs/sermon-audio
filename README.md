@@ -95,7 +95,6 @@ Package | Version | Dev
 [express-starter-config](https://www.npmjs.com/package/express-starter-config) | ^0.2.1 | ✖
 [great-logs](https://www.npmjs.com/package/great-logs) | 0.0.4 | ✖
 [prompts](https://www.npmjs.com/package/prompts) | ^2.0.1 | ✖
-[typescript](https://www.npmjs.com/package/typescript) | ^3.5.1 | ✖
 [walkdir](https://www.npmjs.com/package/walkdir) | 0.0.12 | ✖
 [@types/chai](https://www.npmjs.com/package/@types/chai) | ^4.1.3 | ✔
 [@types/express](https://www.npmjs.com/package/@types/express) | ^4.16.0 | ✔
