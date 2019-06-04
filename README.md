@@ -82,7 +82,7 @@ npm install --save sermon-audio
  - **npm run prod** : `npm run build && node dist/index.js --instance prod`
  - **npm run readme** : `node ./node_modules/.bin/node-readme`
  - **npm run test** : `mocha ./dist/test/*.js`
- - **npm run start** : `npm run build && npm run prod`
+ - **npm run start** : `node dist/index.js --instance prod --port 8000`
 
 ## Dependencies
 
